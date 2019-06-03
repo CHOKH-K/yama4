@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container bala">
+		<div>
+			<h2>2+2+2*5*5+0</h2>
+		</div>
+		<div class="answerq py-3 px-3 border">54</div>
+		<div class="answerz py-3 px-3 border">150</div>
+		<div class="answerx py-3 px-3 border">0</div>
+	</div>
+
+
+	<div class="container">
+		<div style="display: none;" class="lel">
+			<h2>7+7+7+7+7+7*7</h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 answers"></div>
+		<div style="display:none;" class="border py-3 px-3 answerd"></div>
+		<div style="display:none;" class="border py-3 px-3 answerf"></div>
+	</div>
+
+	<div class="container">
+		<div style="display: none;" class="lel">
+			<h2></h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 answer1"></div>
+		<div style="display:none;" class="border py-3 px-3 answer2"></div>
+		<div style="display:none;" class="border py-3 px-3 answer3"></div>
+	</div>
+	<div class="container">
+		<div style="display: none;" class="lel">
+			<h2></h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 answer4"></div>
+		<div style="display:none;" class="border py-3 px-3 answer5"></div>
+		<div style="display:none;" class="border py-3 px-3 answer6"></div>
+	</div>
+		<div class="container">
+		<div style="display: none;" class="lel">
+			<h2></h2>
+		</div>
+		<div style="display:none;" class="border py-3 px-3 answer7"></div>
+		<div style="display:none;" class="border py-3 px-3 answer8"></div>
+		<div style="display:none;" class="border py-3 px-3 answer9"></div>
+	</div>
+
+
+
+
+	   <script type="text/javascript">
+	   	 document.querySelector(".answerq").onclick = function(){
+	   		alert("true")
+	   		document.querySelector(".answers").style.display = "block"
+	   		document.querySelector(".answerd").style.display = "block"
+	   		document.querySelector(".answerf").style.display = "block"
+	   		document.querySelector(".lel").style.display = "block"
+	   		document.querySelector(".answerq").style.display = "none"
+	   		document.querySelector(".answerz").style.display = "none"
+	   		document.querySelector(".answerx").style.display = "none"
+	   		document.querySelector(".bala").style.display = "none"
+	   	 }
+	   	  document.querySelector(".answerz").onclick = function(){
+	   	  	alert("false")
+	   	  }
+	   	   document.querySelector(".answerx").onclick = function(){
+	   	   	alert("false")
+	   	   }
+		   	 document.querySelector(".answers").onclick = function(){
+		   	alert("false")
+		   	 }
+		   	  document.querySelector(".answerd").onclick = function(){
+		   	  	alert("false")
+		   	  }
+		   	   document.querySelector(".answerf").onclick = function(){
+		   	   	alert("true")
+		   	   	document.querySelector(".answers").style.display = "none"
+		   	   	document.querySelector(".answerd").style.display = "none"
+		   	   	document.querySelector(".answerf").style.display = "none"
+		   	   	document.querySelector(".answer1").style.display = "block"
+		   	   	document.querySelector(".answer2").style.display = "block"
+		   	   	document.querySelector(".answer3").style.display = "block"
+
+		   	   	}
+		   	   	document.querySelector(".answer1").onclick = function(){
+		   	   		alert("false")
+		   	   	}
+		   	   	document.querySelector(".answer2").onclick = function(){
+		   	   		alert("true")
+		   	   	document.querySelector(".answer1").style.display = "none"
+		   	   	document.querySelector(".answer2").style.display = "none"
+		   	   	document.querySelector(".answer3").style.display = "none"
+		   	   	document.querySelector(".answer4").style.display = "block"
+		   	   	document.querySelector(".answer5").style.display = "block"
+		   	   	document.querySelector(".answer6").style.display = "block"
+		   	   	}
+		   	   	document.querySelector(".answer3").onclick = function(){
+		   	   		alert("false")
+		   	   	}
+		   	   	document.querySelector(".answer4").onclick = function(){
+		   	   	alert("false")
+		   	   }
+		   	   	document.querySelector(".answer5").onclick = function(){
+		   	   	alert("true")
+		   	   	document.querySelector(".answer4").style.display = "none"
+		   	   	document.querySelector(".answer5").style.display = "none"
+		   	   	document.querySelector(".answer6").style.display = "none"
+		   	   	document.querySelector(".answer7").style.display = "block"
+		   	   	document.querySelector(".answer8").style.display = "block"
+		   	   	document.querySelector(".answer9").style.display = "block"
+		   	   }
+		   	   	document.querySelector(".answer6").onclick = function(){
+		   	   	alert("false")
+		   	   }
+		   	   document.querySelector(".answer7").onclick = function(){
+		   	   	alert("false")
+		   	   }
+		   	   	document.querySelector(".answer8").onclick = function(){
+		   	   	alert("true")
+		   	   }
+		   	   	document.querySelector(".answer9").onclick = function(){
+		   	   	alert("false")
+		   	   }
+		   	   
+	   </script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+</body>
+</html>
